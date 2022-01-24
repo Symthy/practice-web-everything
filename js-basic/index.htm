@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript サンプル</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="ly_header">
+    JavaScript Sample
+  </header>
+  <section class="ly_main">
+    <div class="bl_frame">
+      <div id="js_red_lamp" class="el_light"></div>
+      <div id="js_yellow_lamp" class="el_light"></div>
+      <div id="js_blue_lamp" class="el_light"></div>
+    </div>
+    <button id="js_open" type="button" class="el_btn">Change Mode</button>
+  </section>
+  <section id="js_modal" class="uq_modal_back is_hidden">
+    <div class="ly_modal">
+      <p>点灯ランプの選択</p>
+      <div class="bl_actions">
+        <button id="js_red_btn" class="el_btn">Red</button>
+        <button id="js_yellow_btn" class="el_btn">Yellow</button>
+        <button id="js_blue_btn" class="el_btn">Blue</button>
+      </div>
+      <button id="js_cancel_btn" class="el_btn">Cancel</button>
+    </div>
+  </section>
+  <footer class="ly_footer">
+    traffic lights
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="./index.js" charset="utf-8"></script>
+</body>
+</html>

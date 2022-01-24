@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ly_header {
+  height: 25px;
+  background-color: rgba(117, 190, 218, 0.5);
+}
+
+
+.ly_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+.ly_footer {
+  height: 25px;
+  font-size: 12px;
+  background-color: rgba(117, 190, 218, 0.5);
+  display: flex;
+  justify-content: right;
+}
+
+.bl_frame {
+  width: 300px;
+  height: 75px;
+  border-radius: 25px;
+  background-color: #d3d3d3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.el_light {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  margin: 15px;
+}
+
+.el_btn {
+  margin: 30px 10px 0 10px;
+  width: 100px;
+  height: 25px;
+}
+
+
+.is_red {
+  background-color: red;
+}
+
+.is_yellow {
+  background-color: yellow;
+}
+
+.is_blue {
+  background-color: blue;
+}
+
+.is_hidden {
+  display: none;
+}
+
+.is_active {
+  display: block;
+}
+
+
+.uq_modal_back {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.ly_modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  background-color: #fff;
+  z-index: 1;
+  border: solid 3px #2f4f4f;
+  border-radius: 5px;
+  box-shadow: 0 0 8px gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bl_actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}

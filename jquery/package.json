@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "./node_modules/.bin/browserify createTableByJquery.js -o bundle.js"
+    "build": "browserify createTableByJquery.js -o bundle.js"
   }
 }
